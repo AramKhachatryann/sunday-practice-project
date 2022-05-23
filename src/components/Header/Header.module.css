@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+    height: 10vh;
+    align-items: center;
+}
+
+.link {
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.active {
+    color: #000;
+    background-color: #fff;
+    transition: all 0.3s;
+}
+
+.logo {
+    height: 8vh;
+    width: 8vh;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerInfo {
+    display: flex;
+    gap: 2rem
+}

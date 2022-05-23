@@ -1,0 +1,17 @@
+.newPost{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+.newPostArea {
+    min-width: 100px;
+    width: 400px;
+    padding: 10px 40px;
+    border: 1px #ccc solid;
+}
+
+.newPostInput {
+    padding: 10px;
+}
